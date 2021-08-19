@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="332.551" tests="37" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\DEM49\JAVA_PRACTICE\Automation\target\test-classes;C:\Users\DEM49\JAVA_PRACTICE\Automation\target\classes;C:\Users\DEM49\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\DEM49\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\DEM49\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\DEM49\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\DEM49\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DEM49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DEM49\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\DEM49\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\DEM49\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\DEM49\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\DEM49\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DEM49\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\DEM49\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\DEM49\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\DEM49\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\DEM49\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\DEM49\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\DEM49\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\DEM49\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\DEM49\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\DEM49\.m2\repository\com\microsoft\sqlserver\sqljdbc4\4.0\sqljdbc4-4.0.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\DEM49\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DEM49\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\DEM49\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\DEM49\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-6\selenium-java-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-6\selenium-api-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-6\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-6\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-6\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-6\selenium-http-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-6\selenium-json-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-6\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-6\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-6\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-6\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-6\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-6\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\squareup\okhttp3\okhttp\4.5.0\okhttp-4.5.0.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.70\kotlin-stdlib-1.3.70.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\DEM49\.m2\repository\com\squareup\okio\okio\2.6.0\okio-2.6.0.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.70\kotlin-stdlib-common-1.3.70.jar;C:\Users\DEM49\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\DEM49\.m2\repository\io\grpc\grpc-context\1.28.0\grpc-context-1.28.0.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-buffer\4.1.49.Final\netty-buffer-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-common\4.1.49.Final\netty-common-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-http\4.1.49.Final\netty-codec-http-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec\4.1.49.Final\netty-codec-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.49.Final\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport\4.1.49.Final\netty-transport-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-resolver\4.1.49.Final\netty-resolver-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-api\0.4.0\opentelemetry-api-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.4.0\opentelemetry-context-prop-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.4.0\opentelemetry-sdk-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\projectreactor\netty\reactor-netty\0.9.6.RELEASE\reactor-netty-0.9.6.RELEASE.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-http2\4.1.48.Final\netty-codec-http2-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\io\projectreactor\reactor-core\3.3.5.RELEASE\reactor-core-3.3.5.RELEASE.jar;C:\Users\DEM49\.m2\repository\net\bytebuddy\byte-buddy\1.10.9\byte-buddy-1.10.9.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DEM49\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\DEM49\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-6\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-6\selenium-support-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\DEM49\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\DEM49\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\DEM49\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\DEM49\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\DEM49\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\DEM49\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\DEM49\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\DEM49\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\DEM49\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\DEM49\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.0\log4j-api-2.13.0.jar;C:\Users\DEM49\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.0\log4j-core-2.13.0.jar;C:\Users\DEM49\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\DEM49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\DEM49\.m2\repository\com\hierynomus\sshj\0.27.0\sshj-0.27.0.jar;C:\Users\DEM49\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\DEM49\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\DEM49\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\DEM49\.m2\repository\net\i2p\crypto\eddsa\0.2.0\eddsa-0.2.0.jar;C:\Users\DEM49\.m2\repository\org\fissore\jrecordbind\jrecordbind\3.2.0\jrecordbind-3.2.0.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar;C:\Users\DEM49\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\txw2\2.3.2\txw2-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.8\istack-commons-runtime-3.0.8.jar;C:\Users\DEM49\.m2\repository\org\jvnet\staxex\stax-ex\1.8.1\stax-ex-1.8.1.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.16\FastInfoset-1.2.16.jar;C:\Users\DEM49\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\jaxb-xjc\2.3.2\jaxb-xjc-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\xsom\2.3.2\xsom-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\codemodel\2.3.2\codemodel-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\bind\external\rngom\2.3.2\rngom-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\dtd-parser\dtd-parser\1.4.1\dtd-parser-1.4.1.jar;C:\Users\DEM49\.m2\repository\com\sun\istack\istack-commons-tools\3.0.8\istack-commons-tools-3.0.8.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\bind\external\relaxng-datatype\2.3.2\relaxng-datatype-2.3.2.jar;C:\Users\DEM49\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\DEM49\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\DEM49\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="org.apache.logging.log4j.assignedSequences" value="15498"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\DEM49\AppData\Local\Temp\surefire2972857684635498116\surefirebooter8612830740614196051.jar C:\Users\DEM49\AppData\Local\Temp\surefire2972857684635498116 2021-06-01T16-14-55_770-jvmRun1 surefire114152080958081751tmp surefire_08380598280189290056tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\DEM49\JAVA_PRACTICE\Automation\target\test-classes;C:\Users\DEM49\JAVA_PRACTICE\Automation\target\classes;C:\Users\DEM49\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\DEM49\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\DEM49\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\DEM49\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\DEM49\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DEM49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DEM49\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\DEM49\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\DEM49\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\DEM49\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\DEM49\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DEM49\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\DEM49\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\DEM49\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\DEM49\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\DEM49\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\DEM49\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\DEM49\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\DEM49\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\DEM49\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\DEM49\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\DEM49\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\DEM49\.m2\repository\com\microsoft\sqlserver\sqljdbc4\4.0\sqljdbc4-4.0.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\DEM49\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DEM49\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\DEM49\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\DEM49\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\DEM49\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-6\selenium-java-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-6\selenium-api-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-6\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\DEM49\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-6\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-6\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-6\selenium-http-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-6\selenium-json-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-6\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-6\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-6\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-6\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-6\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-6\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\squareup\okhttp3\okhttp\4.5.0\okhttp-4.5.0.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.70\kotlin-stdlib-1.3.70.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\DEM49\.m2\repository\com\squareup\okio\okio\2.6.0\okio-2.6.0.jar;C:\Users\DEM49\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.70\kotlin-stdlib-common-1.3.70.jar;C:\Users\DEM49\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\DEM49\.m2\repository\io\grpc\grpc-context\1.28.0\grpc-context-1.28.0.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-buffer\4.1.49.Final\netty-buffer-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-common\4.1.49.Final\netty-common-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-http\4.1.49.Final\netty-codec-http-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec\4.1.49.Final\netty-codec-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.49.Final\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-transport\4.1.49.Final\netty-transport-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-resolver\4.1.49.Final\netty-resolver-4.1.49.Final.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-api\0.4.0\opentelemetry-api-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.4.0\opentelemetry-context-prop-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.4.0\opentelemetry-sdk-0.4.0.jar;C:\Users\DEM49\.m2\repository\io\projectreactor\netty\reactor-netty\0.9.6.RELEASE\reactor-netty-0.9.6.RELEASE.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-http2\4.1.48.Final\netty-codec-http2-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\io\projectreactor\reactor-core\3.3.5.RELEASE\reactor-core-3.3.5.RELEASE.jar;C:\Users\DEM49\.m2\repository\net\bytebuddy\byte-buddy\1.10.9\byte-buddy-1.10.9.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DEM49\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\DEM49\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\DEM49\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\DEM49\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-6\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-6\selenium-support-4.0.0-alpha-6.jar;C:\Users\DEM49\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\DEM49\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\DEM49\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\DEM49\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\DEM49\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\DEM49\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\DEM49\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\DEM49\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\DEM49\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\DEM49\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\DEM49\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.0\log4j-api-2.13.0.jar;C:\Users\DEM49\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.0\log4j-core-2.13.0.jar;C:\Users\DEM49\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\DEM49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\DEM49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\DEM49\.m2\repository\com\hierynomus\sshj\0.27.0\sshj-0.27.0.jar;C:\Users\DEM49\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;C:\Users\DEM49\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;C:\Users\DEM49\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\DEM49\.m2\repository\net\i2p\crypto\eddsa\0.2.0\eddsa-0.2.0.jar;C:\Users\DEM49\.m2\repository\org\fissore\jrecordbind\jrecordbind\3.2.0\jrecordbind-3.2.0.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar;C:\Users\DEM49\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\txw2\2.3.2\txw2-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.8\istack-commons-runtime-3.0.8.jar;C:\Users\DEM49\.m2\repository\org\jvnet\staxex\stax-ex\1.8.1\stax-ex-1.8.1.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.16\FastInfoset-1.2.16.jar;C:\Users\DEM49\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\jaxb-xjc\2.3.2\jaxb-xjc-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\xsom\2.3.2\xsom-2.3.2.jar;C:\Users\DEM49\.m2\repository\org\glassfish\jaxb\codemodel\2.3.2\codemodel-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\bind\external\rngom\2.3.2\rngom-2.3.2.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\dtd-parser\dtd-parser\1.4.1\dtd-parser-1.4.1.jar;C:\Users\DEM49\.m2\repository\com\sun\istack\istack-commons-tools\3.0.8\istack-commons-tools-3.0.8.jar;C:\Users\DEM49\.m2\repository\com\sun\xml\bind\external\relaxng-datatype\2.3.2\relaxng-datatype-2.3.2.jar;C:\Users\DEM49\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\DEM49\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\DEM49\.m2\repository\com\jcraft\jsch\0.1.55\jsch-0.1.55.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DEM49"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="testng.dtd.http" value="true"/>
+    <property name="basedir" value="C:\Users\DEM49\JAVA_PRACTICE\Automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\DEM49\AppData\Local\Temp\surefire2972857684635498116\surefirebooter8612830740614196051.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="DEM49"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\DEM49\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DEM49\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\DEM49\JAVA_PRACTICE\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\DEM49\Oracle;C:\Program Files\Actian\IngresII\ingres\bin;C:\Program Files\Actian\IngresII\ingres\utility;C:\app\DEM49\product\12.1.0\client_1;C:\app\DEM49\product\12.1.0\client_1\bin;C:\Program Files\IBM\MQ\java\lib;C:\Program Files\IBM\MQ\java\lib64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath\javaw.exe;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\IBM\MQ\bin64;C:\Program Files\IBM\MQ\bin;C:\Program Files\IBM\MQ\tools\c\samples\bin64;C:\Program Files\IBM\MQ\tools\c\samples\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\PuTTY\;C:\Users\DEM49\AppData\Local\Microsoft\WindowsApps;;C:\Softwares\eclipse-SDK-4.13-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="PushFileProcessing[TC_001_FileProcessing, BREAK, UKTV, 758, Positive, UKTBSCH.34076, , , , ](1)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.621">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+2021-06-01 16:15:00,572 main ERROR File contains an invalid element or attribute "filepattern"
+2021-06-01 16:15:00,577 main ERROR appender File has no parameter that matches element SizeBasedTriggeringPolicy
+Test Case No:1
+01-06-2021 16:15:03.284 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:03.297 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 8
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_002_FileProcessing, BREAK, BSS, 953, Positive, CCENBSCH.506, , , , ](2)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.325">
+    <system-out><![CDATA[01-06-2021 16:15:03.603 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:03.616 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 7
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_003_FileProcessing, BREAK, LFTS, 1131, Positive, LFTS_BreakSchedule_OCT2020_TS23.txt, , , , ](3)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.321">
+    <system-out><![CDATA[01-06-2021 16:15:03.934 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:03.948 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 9
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_004_FileProcessing, BREAK, SONY, 752, Positive, MOUK202105060539.BRK, , , , ](4)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.298">
+    <system-out><![CDATA[01-06-2021 16:15:04.236 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:04.249 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_005_FileProcessing, PROGRAM, V6, 1001, Positive, NJR2PSCH.13680, , , , ](5)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.356">
+    <system-out><![CDATA[01-06-2021 16:15:04.592 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:04.604 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_006_FileProcessing, PROGRAM, V7, 771, Positive, skypsch.083, , , , ](6)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.325">
+    <system-out><![CDATA[01-06-2021 16:15:04.914 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:04.926 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_007_FileProcessing, PROGRAM, SONY, 1076, Positive, POPP202105040204PLAN.PROG, , , , ](7)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.334">
+    <system-out><![CDATA[01-06-2021 16:15:05.245 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:05.259 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_008_FileProcessing, PROGRAM, UKTV, 991, Positive, GI_PRG_05052021.dat, , , , ](8)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.44">
+    <system-out><![CDATA[01-06-2021 16:15:05.679 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:05.691 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_009_FileProcessing, PROGRAM, S4C, 980, Positive, PROG20210508-20210514.XML, , , , ](9)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.364">
+    <system-out><![CDATA[01-06-2021 16:15:06.055 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:06.068 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 11
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_010_FileProcessing, SPOT, BSS, 952, Positive, SS_040521_122759.SKYsgl.PROV.50145310.20210505SkyFootIre, , , , ](10)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.358">
+    <system-out><![CDATA[01-06-2021 16:15:06.404 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:06.427 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 9
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_011_FileProcessing, SPOT, MEMS, 988, Positive, SS_040920_085601.MEM.PROV.35505830.txt, , , , ](11)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.404">
+    <system-out><![CDATA[01-06-2021 16:15:06.806 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:06.829 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 11
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_012_FileProcessing, SPOT, SONY, 1151, Positive, SS_220720_160547.SON.FINAL.33075960, , , , ](12)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.36">
+    <system-out><![CDATA[01-06-2021 16:15:07.165 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:07.189 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 11
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_013_FileProcessing, SPOT, UKTV, 989, Positive, SS_040521_095735.NBC.PROV.50126250, , , , ](13)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.381">
+    <system-out><![CDATA[01-06-2021 16:15:07.544 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:07.568 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 11
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_014_FileProcessing, SPOT, S4C, 981, Positive, SS_300421_150225.S4C.FINAL.50045480, , , , ](14)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.342">
+    <system-out><![CDATA[01-06-2021 16:15:07.901 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:07.913 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_015_FileProcessing, RECON, RECON, 1135, Positive, 0409720210218.DCL, , , , ](15)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.37">
+    <system-out><![CDATA[01-06-2021 16:15:08.256 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:08.281 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 11
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_016_FileProcessing, RECON, RECON, 1135, Negative, 0409620200708_REJE005.DCL, REJE005, 957, 04096, Additional details : Interface Name: &lt;InterfaceName&gt;, Channel Description: &lt;Channel Description&gt;(&lt;ChannelCode&gt;); Transmission Date: &apos;2020-07-08&apos;; The File Trailer count(957)  and the actual number of records(965) do not match.](16)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.359">
+    <system-out><![CDATA[01-06-2021 16:15:08.629 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:08.642 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 12
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_017_FileProcessing, LMKIItoSAP, LMKIItoSAP, 1027, Positive, IN_140520_210240_1, , , , ](17)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.349">
+    <system-out><![CDATA[01-06-2021 16:15:08.978 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:08.990 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 12
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="PushFileProcessing[TC_018_FileProcessing, ATTRIBUTION, ATTRIBUTION, 1046, Positive, INDAY1.sky, , , , ](18)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.37">
+    <system-out><![CDATA[01-06-2021 16:15:09.352 [main] INFO  HelperClass.FTP_Upload - File uploaded successfully
+01-06-2021 16:15:09.365 [main] INFO  HelperClass.FTP_Upload - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit1
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 10
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="waitTime" classname="MINTUI.Automation.FileProcessingScenariosTest" time="299.999"/>
+  <testcase name="FileProcessing[TC_001_FileProcessing, BREAK, UKTV, 758, Positive, UKTBSCH.34076, , , , ](1)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.596">
+    <system-out><![CDATA[Test Case No:1
+01-06-2021 16:20:10.144 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:10.168 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_002_FileProcessing, BREAK, BSS, 953, Positive, CCENBSCH.506, , , , ](2)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.524">
+    <system-out><![CDATA[01-06-2021 16:20:10.597 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:10.621 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_003_FileProcessing, BREAK, LFTS, 1131, Positive, LFTS_BreakSchedule_OCT2020_TS23.txt, , , , ](3)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.351">
+    <system-out><![CDATA[01-06-2021 16:20:11.042 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:11.055 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_004_FileProcessing, BREAK, SONY, 752, Positive, MOUK202105060539.BRK, , , , ](4)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.441">
+    <system-out><![CDATA[01-06-2021 16:20:11.480 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:11.493 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_005_FileProcessing, PROGRAM, V6, 1001, Positive, NJR2PSCH.13680, , , , ](5)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.503">
+    <system-out><![CDATA[01-06-2021 16:20:11.988 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:12.000 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_006_FileProcessing, PROGRAM, V7, 771, Positive, skypsch.083, , , , ](6)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.441">
+    <system-out><![CDATA[01-06-2021 16:20:12.434 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:12.446 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 13
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_007_FileProcessing, PROGRAM, SONY, 1076, Positive, POPP202105040204PLAN.PROG, , , , ](7)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.11">
+    <failure message="expected [COMPLETED] but found [REJECTED]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+]]></failure>
+  </testcase>
+  <testcase name="FileProcessing[TC_008_FileProcessing, PROGRAM, UKTV, 991, Positive, GI_PRG_05052021.dat, , , , ](8)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.521">
+    <system-out><![CDATA[01-06-2021 16:20:13.063 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:13.075 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_009_FileProcessing, PROGRAM, S4C, 980, Positive, PROG20210508-20210514.XML, , , , ](9)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.45">
+    <system-out><![CDATA[01-06-2021 16:20:13.514 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:13.526 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_010_FileProcessing, SPOT, BSS, 952, Positive, SS_040521_122759.SKYsgl.PROV.50145310.20210505SkyFootIre, , , , ](10)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="12.689">
+    <system-out><![CDATA[select REMOTE_HOST, REMOTE_PORT, REMOTE_USER, REMOTE_PASSWORD FROM [AdTechHub].[dbo].[CONF_SFTP_PROF] WHERE NAME = 'Profile_sftp_bskyb'
+Query Executed
+REMOTE_HOST issftp.bskyb.com
+REMOTE_PORT is22
+USERNAME isftp_atsprd
+PASSWORD isrO0ABXQABkRFU2VkZXVyAAJbQqzzF/gGCFTgAgAAeHAAAAAI1yTILhmf6nRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAZXVxAH4AAQAAABCnGu2CrgsYVD6t580h/fFC
+01-06-2021 16:20:13.816 [main] INFO  HelperClass.SFTP_Upload - Establishing Connection...
+01-06-2021 16:20:14.217 [main] INFO  HelperClass.SFTP_Upload - Connection established.
+01-06-2021 16:20:14.218 [main] INFO  HelperClass.SFTP_Upload - Creating SFTP Channel.
+01-06-2021 16:20:14.534 [main] INFO  HelperClass.SFTP_Upload - Exec Channel created.
+Done
+Establishing Connection...
+Error: Auth fail
+01-06-2021 16:20:26.216 [main] INFO  HelperClass.SFTP_Download - Error in downloading file from SFTP: Auth fail
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_011_FileProcessing, SPOT, MEMS, 988, Positive, SS_040920_085601.MEM.PROV.35505830.txt, , , , ](11)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="1.137">
+    <system-out><![CDATA[01-06-2021 16:20:26.813 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:26.838 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+01-06-2021 16:20:27.064 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:27.088 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+01-06-2021 16:20:27.320 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:27.332 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_012_FileProcessing, SPOT, SONY, 1151, Positive, SS_220720_160547.SON.FINAL.33075960, , , , ](12)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.459">
+    <system-out><![CDATA[01-06-2021 16:20:27.783 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:27.807 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_013_FileProcessing, SPOT, UKTV, 989, Positive, SS_040521_095735.NBC.PROV.50126250, , , , ](13)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.097">
+    <failure message="expected [COMPLETED] but found [REJECTED]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+]]></failure>
+  </testcase>
+  <testcase name="FileProcessing[TC_014_FileProcessing, SPOT, S4C, 981, Positive, SS_300421_150225.S4C.FINAL.50045480, , , , ](14)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.469">
+    <system-out><![CDATA[01-06-2021 16:20:28.358 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:28.371 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 14
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_015_FileProcessing, RECON, RECON, 1135, Positive, 0409720210218.DCL, , , , ](15)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.489">
+    <system-out><![CDATA[01-06-2021 16:20:28.849 [main] INFO  HelperClass.FTP_Download - File downloaded successfully
+01-06-2021 16:20:28.866 [main] INFO  HelperClass.FTP_Download - FTP Response: 211-FTP server status:
+     Connected to ::ffff:10.105.56.14
+     Logged in as ftp_sit2
+     TYPE: BINARY
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 15
+     vsFTPd 3.0.2 - secure, fast, stable
+211 End of status
+
+]]></system-out>
+  </testcase>
+  <testcase name="FileProcessing[TC_016_FileProcessing, RECON, RECON, 1135, Negative, 0409620200708_REJE005.DCL, REJE005, 957, 04096, Additional details : Interface Name: &lt;InterfaceName&gt;, Channel Description: &lt;Channel Description&gt;(&lt;ChannelCode&gt;); Transmission Date: &apos;2020-07-08&apos;; The File Trailer count(957)  and the actual number of records(965) do not match.](16)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.106">
+    <failure message="expected [REJECTED] but found [FAILED]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [REJECTED] but found [FAILED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:359)
+]]></failure>
+  </testcase>
+  <testcase name="FileProcessing[TC_017_FileProcessing, LMKIItoSAP, LMKIItoSAP, 1027, Positive, IN_140520_210240_1, , , , ](17)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.109">
+    <failure message="expected [COMPLETED] but found [REJECTED]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+]]></failure>
+  </testcase>
+  <testcase name="FileProcessing[TC_018_FileProcessing, ATTRIBUTION, ATTRIBUTION, 1046, Positive, INDAY1.sky, , , , ](18)" classname="MINTUI.Automation.FileProcessingScenariosTest" time="0.212">
+    <failure message="expected [INDAY1.sky] but found [INDAY1.sky_210601151815002]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [INDAY1.sky] but found [INDAY1.sky_210601151815002]
+	at MINTUI.Automation.FileProcessingScenariosTest.VerifyTargetFileName(FileProcessingScenariosTest.java:533)
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:280)
+]]></failure>
+  </testcase>
+</testsuite>

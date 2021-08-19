@@ -1,0 +1,16 @@
+<xs:schema
+	targetNamespace="http://schemas.jrecordbind.org/jrb/FileTrailer"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.jrecordbind.org/jrb/FileTrailer"
+	xmlns:jrb="http://jrecordbind.org/3/xsd" elementFormDefault="qualified">
+
+
+	<xs:complexType name="FileTrailer">
+		<xs:sequence>
+			<xs:element name="RecordType" type="xs:int" fixed="5" jrb:length="1"/>
+			<xs:element name="FileCount" type="xs:int" jrb:length="8" jrb:padder="org.fissore.jrecordbind.padders.ZeroLeftPadder"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="main" type="FileTrailer" jrb:length="9" />
+
+</xs:schema>

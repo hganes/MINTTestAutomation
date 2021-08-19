@@ -1,0 +1,15 @@
+<xs:schema targetNamespace="http://schemas.jrecordbind.org/jrb/example" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.jrecordbind.org/jrb/example" xmlns:jrb="http://jrecordbind.org/3/xsd" elementFormDefault="qualified">
+
+
+	<xs:complexType name="FileHeaderNew">
+		<xs:sequence>
+			<xs:element name="RecordType" type="xs:int" fixed="1" jrb:length="1" />
+			<xs:element name="CreationDate" type="xs:int" jrb:length="8" />
+			
+			<xs:element name="CreationTime" type="xs:int" jrb:length="6" jrb:padder="org.fissore.jrecordbind.padders.ZeroLeftPadder" />
+		</xs:sequence>
+
+	</xs:complexType>
+	<xs:element name="main" type="FileHeaderNew" jrb:length="15" />
+
+</xs:schema>

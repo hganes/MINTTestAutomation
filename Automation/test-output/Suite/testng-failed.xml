@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="MINTUI.Automation.ListenersFileProcessing"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MINTUI.Automation.FileProcessingScenariosTest">
+        <methods>
+          <include name="FileProcessing" invocation-numbers="0 1 4 7 17 18"/>
+          <include name="Extent_Report_Flush"/>
+          <include name="Extent_Report"/>
+        </methods>
+      </class> <!-- MINTUI.Automation.FileProcessingScenariosTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

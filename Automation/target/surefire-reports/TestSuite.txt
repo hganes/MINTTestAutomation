@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 332.551 s <<< FAILURE! - in TestSuite
+MINTUI.Automation.FileProcessingScenariosTest.FileProcessing[TC_007_FileProcessing, PROGRAM, SONY, 1076, Positive, POPP202105040204PLAN.PROG, , , , ](7)  Time elapsed: 0.11 s  <<< FAILURE!
+java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+
+MINTUI.Automation.FileProcessingScenariosTest.FileProcessing[TC_013_FileProcessing, SPOT, UKTV, 989, Positive, SS_040521_095735.NBC.PROV.50126250, , , , ](13)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+
+MINTUI.Automation.FileProcessingScenariosTest.FileProcessing[TC_016_FileProcessing, RECON, RECON, 1135, Negative, 0409620200708_REJE005.DCL, REJE005, 957, 04096, Additional details : Interface Name: <InterfaceName>, Channel Description: <Channel Description>(<ChannelCode>); Transmission Date: '2020-07-08'; The File Trailer count(957)  and the actual number of records(965) do not match.](16)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: expected [REJECTED] but found [FAILED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:359)
+
+MINTUI.Automation.FileProcessingScenariosTest.FileProcessing[TC_017_FileProcessing, LMKIItoSAP, LMKIItoSAP, 1027, Positive, IN_140520_210240_1, , , , ](17)  Time elapsed: 0.109 s  <<< FAILURE!
+java.lang.AssertionError: expected [COMPLETED] but found [REJECTED]
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:230)
+
+MINTUI.Automation.FileProcessingScenariosTest.FileProcessing[TC_018_FileProcessing, ATTRIBUTION, ATTRIBUTION, 1046, Positive, INDAY1.sky, , , , ](18)  Time elapsed: 0.212 s  <<< FAILURE!
+java.lang.AssertionError: expected [INDAY1.sky] but found [INDAY1.sky_210601151815002]
+	at MINTUI.Automation.FileProcessingScenariosTest.VerifyTargetFileName(FileProcessingScenariosTest.java:533)
+	at MINTUI.Automation.FileProcessingScenariosTest.FileProcessing(FileProcessingScenariosTest.java:280)
+

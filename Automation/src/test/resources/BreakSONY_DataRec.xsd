@@ -1,0 +1,18 @@
+<xs:schema targetNamespace="http://schemas.jrecordbind.org/jrb/test" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.jrecordbind.org/jrb/test" xmlns:jrb="http://jrecordbind.org/3/xsd" elementFormDefault="qualified">
+	
+	<xs:complexType name="DataRecord">
+		<xs:sequence>
+			<xs:element name="RecordType" type="xs:int" fixed="3" jrb:length="1"/>
+			<xs:element name="ChannelCode" type="xs:string" jrb:length="2"/>
+			<xs:element name="TramissionRegion" type="xs:string" jrb:length="2"/>
+			<xs:element name="Date" type="xs:int" jrb:length="8"/>
+			<xs:element name="StartTime" type="xs:int" jrb:length="6" jrb:padder="org.fissore.jrecordbind.padders.ZeroLeftPadder"/>
+			<xs:element name="BreakLength" type="xs:int" jrb:length="3" />
+			<xs:element name="BreakType" type="xs:string" fixed="CB"  jrb:length="2"/>
+			<xs:element name="BreakPosition" type="xs:string"  jrb:length="1"/>
+			<xs:element name="BreakID" type="xs:int" jrb:length="5" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="main" type="DataRecord"   jrb:length="30"/>
+</xs:schema>

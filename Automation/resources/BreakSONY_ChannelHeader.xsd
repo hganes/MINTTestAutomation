@@ -1,0 +1,22 @@
+<xs:schema
+	targetNamespace="http://schemas.jrecordbind.org/jrb/BreakSonyHeader"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.jrecordbind.org/jrb/BreakSonyHeader"
+	xmlns:jrb="http://jrecordbind.org/3/xsd" elementFormDefault="qualified">
+
+	<xs:complexType name="ChannelHeader">
+		<xs:sequence>
+			<xs:element name="RecordType" type="xs:int" fixed="2"
+				jrb:length="1" />
+			<xs:element name="ChannelCode" type="xs:string"
+				jrb:length="2" />
+			<xs:element name="TramissionRegion" type="xs:string"
+				jrb:length="2" />
+			<xs:element name="LogNumber" type="xs:int"
+				jrb:length="1" />
+			<xs:element name="Date" type="xs:int" jrb:length="8" />
+
+		</xs:sequence>
+	</xs:complexType>
+<xs:element name="main" type="ChannelHeader"   jrb:length="14"/>
+</xs:schema>

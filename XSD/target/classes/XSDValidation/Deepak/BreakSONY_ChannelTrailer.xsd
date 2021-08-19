@@ -1,0 +1,17 @@
+<xs:schema
+	targetNamespace="http://XSDVali/BreakSony/BreakSonyHeader"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://XSDVali/BreakSony/BreakSonyHeader"
+	xmlns:jrb="http://jrecordbind.org/3/xsd" elementFormDefault="qualified">
+
+
+	<xs:complexType name="ChannelTrailer">
+		<xs:sequence>
+			<xs:element name="RecordType" type="xs:int" fixed="4" jrb:length="1"/>
+			<xs:element name="DetailCount" type="xs:int" jrb:length="8" jrb:padder="org.fissore.jrecordbind.padders.ZeroLeftPadder"/>
+		</xs:sequence>
+	</xs:complexType>
+<xs:element name="main" type="ChannelTrailer"   jrb:length="9"/>
+
+	
+</xs:schema>	
